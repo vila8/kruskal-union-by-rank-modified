@@ -1,0 +1,47 @@
+<project name= "Proyecto Final" default= "all" basedir=".">
+   
+    <property name="class" value="build/class/"/>
+    <property name="doc" value="build/doc/"/>
+    <property name="main" value="build/class/Kruskal_Modificado"/>
+    <property name="graficas" value="archivosExtra/graficas"/>
+    <property name="odt" value="archivosExtra/odt"/>
+
+    <target name="init" depends="clean">
+        <mkdir dir="${class}"/>
+        <mkdir dir="${doc}"/>
+        <mkdir dir="${graficas}"/>
+        <mkdir dir="${odt}"/>
+    </target> 
+    
+
+    <target name="compile" depends="init" description="compila el código">
+        <javac srcdir="src" destdir="${class}" includes="*.java" includeantruntime="true"/>
+    </target>
+
+    <target name="clean" description="elimina el directorio build">
+        <delete dir="build"/>
+        <delete dir="${graficas}"/>
+        <delete dir="${odt}"/>
+    </target>
+    
+    
+    <target name="doc" description="genera documentación">
+        <javadoc sourcepath="src" destdir="${doc}" author="true" version="true" private="false" locale="es">
+            <fileset dir="src" defaultexcludes="no">
+                <include name="*.java"/>
+            </fileset>
+
+        </javadoc>
+    </target>
+
+    <target name="run" description="corre el programa">
+        <java classname="Kruskal_Modificado">
+            <classpath>
+                <pathelement location="${class}"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="all" depends="clean, compile, doc, run">
+    </target>
+</project>

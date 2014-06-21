@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sucursales>
+	<Sucursal>Distrito Federal</Sucursal>
+	<Sucursal>Queretaro</Sucursal>
+	<Sucursal>Hidalgo</Sucursal>
+	<Sucursal>Puebla</Sucursal>
+	<Sucursal>Morelos</Sucursal>
+	<Sucursal>Guanajuato</Sucursal>
+	<Sucursal>Jalisco</Sucursal>
+	<Sucursal>Guerrero</Sucursal>
+	<Sucursal>Aguascalientes</Sucursal>
+	<Sucursal>Zacatecas</Sucursal>
+	<Sucursal>Durango</Sucursal>
+	<Sucursal>Tamaulipas</Sucursal>
+	<Sucursal>Nuevo Leon</Sucursal>
+	<Sucursal>Sinaloa</Sucursal>
+	<Sucursal>Coahuila</Sucursal>
+	<Sucursal>Sonora</Sucursal>
+	<Sucursal>Baja California</Sucursal>
+	<Sucursal>Oaxaca</Sucursal>
+	<Sucursal>Yucatan</Sucursal>
+	<Sucursal>Campeche</Sucursal>
+	<Sucursal>Chiapas</Sucursal>
+	<Sucursal>Tabasco</Sucursal>
+	<Sucursal>Veracruz</Sucursal>
+	<Sucursal>Chihuahua</Sucursal>
+	<Sucursal>Michoacan</Sucursal>
+
+	<Canales>
+		
+		<Canal>
+			<Sucursal_a>Distrito Federal</Sucursal_a>
+			<Sucursal_b>Puebla</Sucursal_b>
+			<Ancho_Banda>28</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Distrito Federal</Sucursal_a>
+			<Sucursal_b>Nuevo Leon</Sucursal_b>
+			<Ancho_Banda>23</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Distrito Federal</Sucursal_a>
+			<Sucursal_b>Guanajuato</Sucursal_b>
+			<Ancho_Banda>45</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Queretaro</Sucursal_a>
+			<Sucursal_b>Nuevo Leon</Sucursal_b>
+			<Ancho_Banda>19</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Queretaro</Sucursal_a>
+			<Sucursal_b>Tamaulipas</Sucursal_b>
+			<Ancho_Banda>63</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Hidalgo</Sucursal_a>
+			<Sucursal_b>Veracruz</Sucursal_b>
+			<Ancho_Banda>20</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Puebla</Sucursal_a>
+			<Sucursal_b>Hidalgo</Sucursal_b>
+			<Ancho_Banda>24</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Puebla</Sucursal_a>
+			<Sucursal_b>Oaxaca</Sucursal_b>
+			<Ancho_Banda>36</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Morelos</Sucursal_a>
+			<Sucursal_b>Distrito Federal</Sucursal_b>
+			<Ancho_Banda>29</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Morelos</Sucursal_a>
+			<Sucursal_b>Oaxaca</Sucursal_b>
+			<Ancho_Banda>43</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Guanajuato</Sucursal_a>
+			<Sucursal_b>Zacatecas</Sucursal_b>
+			<Ancho_Banda>47</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Guanajuato</Sucursal_a>
+			<Sucursal_b>Michoacan</Sucursal_b>
+			<Ancho_Banda>24</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Guanajuato</Sucursal_a>
+			<Sucursal_b>Guerrero</Sucursal_b>
+			<Ancho_Banda>56</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Jalisco</Sucursal_a>
+			<Sucursal_b>Aguascalientes</Sucursal_b>
+			<Ancho_Banda>45</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Jalisco</Sucursal_a>
+			<Sucursal_b>Michoacan</Sucursal_b>
+			<Ancho_Banda>33</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Guerrero</Sucursal_a>
+			<Sucursal_b>Morelos</Sucursal_b>
+			<Ancho_Banda>23</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Guerrero</Sucursal_a>
+			<Sucursal_b>Aguascalientes</Sucursal_b>
+			<Ancho_Banda>8</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Aguascalientes</Sucursal_a>
+			<Sucursal_b>Sinaloa</Sucursal_b>
+			<Ancho_Banda>35</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Aguascalientes</Sucursal_a>
+			<Sucursal_b>Baja California</Sucursal_b>
+			<Ancho_Banda>74</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Zacatecas</Sucursal_a>
+			<Sucursal_b>Distrito Federal</Sucursal_b>
+			<Ancho_Banda>34</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Zacatecas</Sucursal_a>
+			<Sucursal_b>Coahuila</Sucursal_b>
+			<Ancho_Banda>52</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Durango</Sucursal_a>
+			<Sucursal_b>Chihuahua</Sucursal_b>
+			<Ancho_Banda>23</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Durango</Sucursal_a>
+			<Sucursal_b>Aguascalientes</Sucursal_b>
+			<Ancho_Banda>56</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Tamaulipas</Sucursal_a>
+			<Sucursal_b>Coahuila</Sucursal_b>
+			<Ancho_Banda>11</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Nuevo Leon</Sucursal_a>
+			<Sucursal_b>Tamaulipas</Sucursal_b>
+			<Ancho_Banda>84</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Nuevo Leon</Sucursal_a>
+			<Sucursal_b>Zacatecas</Sucursal_b>
+			<Ancho_Banda>37</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Sinaloa</Sucursal_a>
+			<Sucursal_b>Zacatecas</Sucursal_b>
+			<Ancho_Banda>40</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Coahuila</Sucursal_a>
+			<Sucursal_b>Chihuahua</Sucursal_b>
+			<Ancho_Banda>28</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Sonora</Sucursal_a>
+			<Sucursal_b>Durango</Sucursal_b>
+			<Ancho_Banda>92</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Sonora</Sucursal_a>
+			<Sucursal_b>Sinaloa</Sucursal_b>
+			<Ancho_Banda>56</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Baja California</Sucursal_a>
+			<Sucursal_b>Sonora</Sucursal_b>
+			<Ancho_Banda>51</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Baja California</Sucursal_a>
+			<Sucursal_b>Sinaloa</Sucursal_b>
+			<Ancho_Banda>17</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Baja California</Sucursal_a>
+			<Sucursal_b>Jalisco</Sucursal_b>
+			<Ancho_Banda>13</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Oaxaca</Sucursal_a>
+			<Sucursal_b>Queretaro</Sucursal_b>
+			<Ancho_Banda>35</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Oaxaca</Sucursal_a>
+			<Sucursal_b>Chiapas</Sucursal_b>
+			<Ancho_Banda>34</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Yucatan</Sucursal_a>
+			<Sucursal_b>Campeche</Sucursal_b>
+			<Ancho_Banda>15</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Yucatan</Sucursal_a>
+			<Sucursal_b>Veracruz</Sucursal_b>
+			<Ancho_Banda>45</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Campeche</Sucursal_a>
+			<Sucursal_b>Chiapas</Sucursal_b>
+			<Ancho_Banda>65</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Chiapas</Sucursal_a>
+			<Sucursal_b>Hidalgo</Sucursal_b>
+			<Ancho_Banda>64</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Tabasco</Sucursal_a>
+			<Sucursal_b>Chiapas</Sucursal_b>
+			<Ancho_Banda>16</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Tabasco</Sucursal_a>
+			<Sucursal_b>Oaxaca</Sucursal_b>
+			<Ancho_Banda>22</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Veracruz</Sucursal_a>
+			<Sucursal_b>Queretaro</Sucursal_b>
+			<Ancho_Banda>12</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Veracruz</Sucursal_a>
+			<Sucursal_b>Tabasco</Sucursal_b>
+			<Ancho_Banda>62</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Chihuahua</Sucursal_a>
+			<Sucursal_b>Aguascalientes</Sucursal_b>
+			<Ancho_Banda>46</Ancho_Banda>
+		</Canal>
+
+		<Canal>
+			<Sucursal_a>Michoacan</Sucursal_a>
+			<Sucursal_b>Guerrero</Sucursal_b>
+			<Ancho_Banda>49</Ancho_Banda>
+		</Canal>
+	
+	</Canales>
+</Sucursales>
